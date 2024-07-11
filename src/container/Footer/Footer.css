@@ -1,0 +1,139 @@
+.app__footer {
+     background-color: var(--color-black);
+      
+}
+
+.app__Footer-cs {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers items horizontally */
+    text-align: center;
+    width: 100%;
+    
+
+; /* Makes the container take up the full viewport height */
+}
+
+
+.app__contact-us {
+    margin-top: 100px;
+    margin-right: 100px;
+    white-space: nowrap;
+
+   
+    
+}
+
+.app__contact-us p {
+    line-height: 150%;
+    font-size: 13px;
+    margin-top: 10px;
+    color: white;
+}
+
+.app__contact-us h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.app___title-section {
+    background-color: var(--color-black);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 120px;
+    
+     /* Added margin-bottom property */
+}
+
+.p__opensans1 {
+    color: white;
+}
+
+.app___Socialapp-icons {
+    color: white;
+    gap: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.app__footer-section3{
+background-color: var(--color-black);
+color: white;
+margin-top: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.app__footer-section3 h1{
+     white-space: nowrap;
+     width: 100%;
+    }
+
+.app__footer-section3 p{
+    line-height: 200%;
+    font-size: 12px;
+    
+}
+
+@media screen and (min-width:2000px){
+    .app__Footer-cs{
+        width: 100%;
+    
+         
+      
+    }
+   
+      
+    
+    }
+
+
+@media screen and(min-width:1150px){
+    .app__Footer-cs{
+        width: 70%;
+        
+      
+    }
+    
+}
+@media  (min-width: 921px) and (max-width:1100px) {
+    .app__Footer-cs{
+        max-width:1200px;
+        
+        
+        
+}
+}
+
+    @media  (min-width: 851px) and (max-width:920px)  {
+ .app__Footer-cs{
+        width: 100%;
+        flex-direction: column;
+       }
+       .app___title-section {
+        margin-left: 80px;
+       }
+
+    
+    }
+
+
+@media  (min-width: 280px) and (max-width:850px)  {
+    .app__Footer-cs {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 120px;
+    
+      
+
+    }
+    .app__footer-section3{
+        margin-right: 70px;
+    }
+        
+}
+

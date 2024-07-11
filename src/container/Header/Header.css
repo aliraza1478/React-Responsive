@@ -1,0 +1,35 @@
+.app__header{
+    background-color: var(--color-black);
+}
+
+.app__header-h1{
+    font-family: var(--font-base);
+    color :var(--color-golden);
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 50px;
+}
+
+.app__header-img img{
+    width: 80%;
+
+}
+.p__opensans{
+    color: white;
+    font-size: 15px;
+    
+}
+.app__wrapper_img{
+    width: 50%;
+    
+}
+
+.gallery__image-icon{
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0.5;
+    transition: .5s ease;
+    cursor: pointer; 
+}
